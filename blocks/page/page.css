@@ -1,0 +1,13 @@
+.page{
+  background-image: url(../../image/background_small.jpg);
+   padding: 23px 28px 0 28px;
+overflow: hidden;
+}
+
+@media screen and (min-width: 1248px){
+    .page{
+        padding: 44px 0 0 0;
+        overflow: visible;
+    }
+
+}

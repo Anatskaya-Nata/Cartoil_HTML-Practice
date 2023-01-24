@@ -1,0 +1,13 @@
+.slider__ellips_break{
+    margin: 0 0 0 0;
+ text-align: center;
+ line-height: 15px;
+}
+
+@media screen and (min-width: 1248px){
+    .slider__ellips_break{
+        line-height: 23px;
+ 
+    }
+  
+  }

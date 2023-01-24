@@ -1,0 +1,20 @@
+.button-order{
+    background-color: #2CC9B8;
+    border: 1px solid #2CC9B8;
+    color: #FFF;
+    padding: 19px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    position: relative;
+}
+
+.button-order::after{
+    content: url(../../image/Sabmit.svg);
+    position: absolute;
+    top: 22px;
+    right: 28px;
+    width: 23px;
+    height: 33px;
+    }

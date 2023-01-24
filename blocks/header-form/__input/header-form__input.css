@@ -1,0 +1,18 @@
+.header-form__input{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 5px; 
+    background: transparent;
+    
+ }
+ 
+ .header-form__input::before{
+     content:url(../../../image/input_call.svg);
+     position: absolute;
+     top: 22px;
+     left: 15px;
+     width: 16px;
+     height: 16px;
+ 
+ }
+ 

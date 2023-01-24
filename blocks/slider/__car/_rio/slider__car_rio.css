@@ -1,0 +1,13 @@
+.slider__car_rio{
+    width: 425px;
+    top: -5px;
+    left: 4px;
+}
+
+@media screen and (min-width: 1248px){
+    .slider__car_rio{
+      width: 752px;
+      top: 0px;
+    }
+  
+  }

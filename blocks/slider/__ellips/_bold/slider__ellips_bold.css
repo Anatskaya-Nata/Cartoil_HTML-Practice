@@ -1,0 +1,12 @@
+.slider__ellips_bold{
+font-weight: 600;
+
+}
+
+@media screen and (min-width: 1248px){
+    .slider__ellips_bold{
+
+        padding: 10px 0 0 0;
+    }
+  
+  }

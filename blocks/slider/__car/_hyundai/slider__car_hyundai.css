@@ -1,0 +1,14 @@
+.slider__car_hyundai{
+    width: 400px;
+    top: 0px;
+    left: 20px;
+}
+
+@media screen and (min-width: 1248px){
+    .slider__car_hyundai{
+      width: 705px;
+      top: 22px;
+      left: 20px;
+    }
+  
+  }

@@ -1,0 +1,55 @@
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__top/header__top.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/header/__top/_phone/header__top_phone.css);
+@import url(../blocks/header/__top/_icon/header__top_icon.css);
+@import url(../blocks/header/__top/_number/header__top_number.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__title/_bold/header__title_bold.css);
+
+@import url(../blocks/header-form/header-form.css);
+@import url(../blocks/header-form/__title/header-form__title.css);
+@import url(../blocks/header-form/__input/header-form__input.css);
+@import url(../blocks/header-form/__prefix-imput/header-form__prefix-imput.css);
+@import url(../blocks/header-form/__number-input/header-form__number-input.css);
+@import url(../blocks/header/__info/header__info.css);
+
+@import url(../blocks/header-form/__checkblock/header-form__checkblock.css);
+@import url(../blocks/header-form/__checkbox/header-form__checkbox.css);
+@import url(../blocks/header-form/__checkbox-fake/header-form__checkbox-fake.css);
+@import url(../blocks/header-form/__text-checkbox/header-form__text-checkbox.css);
+@import url(../blocks/header-form/__link-checkbox/header-form__link-checkbox.css);
+
+@import url(../blocks/button-order/button-order.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__ellips/slider__ellips.css);
+@import url(../blocks/slider/__ellips/_bold/slider__ellips_bold.css);
+@import url(../blocks/slider/__ellips/_normal/slider__ellips_normal.css);
+@import url(../blocks/slider/__ellips/_break/slider__ellips_break.css);
+@import url(../blocks/slider/__gallary/slider__gallary.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__car/slider__car.css);
+@import url(../blocks/slider/__car/_polo/slider__car_polo.css);
+@import url(../blocks/slider/__car/_rio/slider__car_rio.css);
+@import url(../blocks/slider/__car/_hyundai/slider__car_hyundai.css);
+@import url(../blocks/slider/swipe-icon/slider__swipe-icon.css);
+
+
+
+
+
+
+
+
+
+
+
+
+

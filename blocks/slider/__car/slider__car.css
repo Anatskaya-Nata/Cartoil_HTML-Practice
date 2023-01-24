@@ -1,0 +1,17 @@
+.slider__car{
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    width: 375px;
+  
+}
+
+@media screen and (min-width: 1248px){
+  .slider__car{
+    width: 760px;
+    overflow: visible;
+    top: -18px;
+    
+  }
+
+}

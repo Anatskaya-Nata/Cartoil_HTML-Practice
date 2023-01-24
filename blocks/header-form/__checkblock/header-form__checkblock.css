@@ -1,0 +1,7 @@
+.header-form__checkblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   padding: 0 0 18px 0;
+   margin: 8px 0 0 0;
+}

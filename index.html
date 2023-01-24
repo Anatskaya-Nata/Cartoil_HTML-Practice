@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="./favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Cartoil</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="./style/style.css" />
+	</head>
+	<body class="root">
+		<div class="page">
+			<header class="header">
+				<div class="header__top">
+					<img src="./image/Logo.svg" alt="Logo" class="logo" />
+					<div class="header__top_phone">
+						<img src="./image/tel.svg" alt="Phone" class="header__top_icon" />
+						<div class="header__top_number">8 (800) 852 78-87</div>
+					</div>
+				</div>
+				<h1 class="header__title">
+					Узнайте
+					<span class="header__title header__title_bold">сколько стоит Ваш авто</span> и
+					доступный займ
+					<span class="header__title header__title_bold">за 1 минуту!</span>
+				</h1>
+				<div class="header__info">
+					<div class="swiper slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slider__gallary">
+								<div class="slider__item">
+									<img src="./image/swipe.svg" alt="swipе" class="slider__swipe-icon" />
+									<div class="slider__ellips">
+										<div class="slider__ellips_normal">VV Polo</div>
+										<div class="slider__ellips_bold">от 499 000 ₽</div>
+									</div>
+									<img
+										src="./image/1.png"
+										class="slider__car slider__car_polo"
+										alt="VV Polo"
+									/>
+								</div>
+							</div>
+							<div class="swiper-slide slider__gallary">
+								<div class="slider__item">
+									<img src="./image/swipe.svg" alt="swipе" class="slider__swipe-icon" />
+									<div class="slider__ellips">
+										<div class="slider__ellips_normal">Kia Rio</div>
+										<div class="slider__ellips_bold">от 499 000 ₽</div>
+									</div>
+									<img
+										src="./image/2.png"
+										class="slider__car slider__car_rio"
+										alt="Kia Rio"
+									/>
+								</div>
+							</div>
+							<div class="swiper-slide slider__gallary">
+								<div class="slider__item">
+									<img src="./image/swipe.svg" alt="swipе" class="slider__swipe-icon" />
+									<div class="slider__ellips">
+										<div class="slider__ellips_normal">PAJERO</div>
+										<div class="slider__ellips_bold">от 499 000 ₽</div>
+									</div>
+									<img src="./image/3.png" class="slider__car" alt="PAJERO" />
+								</div>
+							</div>
+							<div class="swiper-slide slider__gallary">
+								<div class="slider__item">
+									<img src="./image/swipe.svg" alt="swipе" class="slider__swipe-icon" />
+									<div class="slider__ellips">
+										<div class="slider__ellips_normal">
+											<p class="slider__ellips_break">Hyundai</p>
+											<p class="slider__ellips_break">Solaris</p>
+										</div>
+										<div class="slider__ellips_bold">от 499 000 ₽</div>
+									</div>
+									<img
+										src="./image/4.png"
+										class="slider__car slider__car_hyundai"
+										alt=" Hyundai Solaris"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<form action="" class="header-form">
+						<h3 class="header-form__title">Укажите Ваш номер телефона</h3>
+						<div class="header-form__input">
+							<div class="header-form__prefix-imput">
+								+7
+								<input
+									type="text"
+									name="auto-number"
+									placeholder="(905) 555-75-85"
+									class="header-form__number-input"
+								/>
+							</div>
+						</div>
+
+						<label class="header-form__checkblock">
+							<input type="checkbox" class="header-form__checkbox" />
+							<div class="header-form__checkbox-fake"></div>
+							<span class="header-form__text-checkbox">
+								Я ознакомлен
+								<a href="#" class="header-form__link-checkbox"
+									>c политикой конфиденциальности</a
+								>
+							</span>
+						</label>
+						<button type="submit" value="tap" class="button-order">
+							Узнать стоимость
+						</button>
+					</form>
+				</div>
+			</header>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
