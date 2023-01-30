@@ -1,0 +1,20 @@
+.contact__number{
+    display: none; 
+}
+
+@media screen and (min-width: 768px){
+    .contact__number{
+        display: block;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        padding: 0 0 0 10px;
+        color: #000;
+    }
+}
+
+
+/*.contact__number:hover{
+color:#8ED74F ; 
+}*/

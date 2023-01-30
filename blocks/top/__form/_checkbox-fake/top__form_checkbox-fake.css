@@ -1,0 +1,27 @@
+.top__form_checkbox-fake{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+     
+}
+.top__form_checkbox-fake::before{
+    content:"";
+    width: 8px;
+    height: 6px;
+    top: 7px;
+    left: 6px;
+    position: absolute;
+    background-image:url(../../../../image/check.svg) ;
+    opacity: 0;
+    transition: .2s;
+}
+
+.top__form_checkbox:checked+.top__form_checkbox-fake::before{
+    opacity: 1;
+}
+

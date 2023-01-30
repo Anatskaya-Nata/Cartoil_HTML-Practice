@@ -1,0 +1,24 @@
+.contact{
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.5s;
+}
+.contact:hover svg path {
+fill: #8ED74F;
+
+ }
+
+ .contact svg path {
+    transition: 0.5s;
+    
+     }
+    
+
+.contact:hover .contact__number {
+    color: #8ED74F;
+    
+     }
+

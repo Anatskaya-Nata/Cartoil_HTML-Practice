@@ -1,0 +1,9 @@
+.top__form_link-checkbox{
+    color: #000;  
+}
+
+.top__form_link-checkbox:hover{
+    color: #2CC9B8;
+    text-decoration: none;
+    transition: .2s;
+}

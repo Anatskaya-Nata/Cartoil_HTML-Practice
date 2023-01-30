@@ -1,0 +1,17 @@
+.main{
+    width: 100%;
+}
+
+
+/*@media screen and (min-width: 768px){
+    .main{
+
+    }
+}*/
+@media screen and (min-width: 1248px){
+    .main{
+    width: 1248px;
+    margin: 0 auto;
+    }
+
+}

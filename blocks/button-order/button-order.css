@@ -8,6 +8,7 @@
     font-weight: 700;
     line-height: 30px;
     position: relative;
+    cursor: pointer;
 }
 
 .button-order::after{
@@ -18,3 +19,10 @@
     width: 23px;
     height: 33px;
     }
+
+.button-order:hover{
+    background-color: transparent;
+    border: 3px solid #2CC9B8;
+    color:#2CC9B8;
+    transition: .5s;
+}

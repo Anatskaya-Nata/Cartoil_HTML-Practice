@@ -1,0 +1,23 @@
+.top__form_number-input{
+    font-family: 'Montserrat','Arial', sans-serif;
+    width: 200px;
+    height: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    background: transparent;
+    border:none;
+    padding-bottom: 0;
+
+}
+
+::placeholder {
+
+    margin: 0 auto;
+   /* font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;*/
+    color:#DCDCDC ;
+
+   
+  }
