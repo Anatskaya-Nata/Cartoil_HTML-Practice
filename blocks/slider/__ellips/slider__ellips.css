@@ -1,29 +1,25 @@
 .slider__ellips{
- background-image: url(../../../image/Ellipse\ 2.svg); 
- background-repeat: no-repeat;
- font-size: 10px;
- line-height: 20px;
- color: #fff;
- width: 83px;
- height: 83px;
- display: flex;
- flex-direction: column;
-align-items: center;
-padding: 10px 0 0 0;
-background-size: contain;
-
-
+   background-image: url(../../../image/Ellipse\ 2.svg); 
+   background-repeat: no-repeat;
+   font-size: 10px;
+   line-height: 20px;
+   color: #fff;
+   width: 83px;
+   height: 83px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px 0 0 0;
+   background-size: contain;
 }
 
 
 @media screen and (min-width: 1248px){
-    .slider__ellips{
-        width: 160px;
-        height: 160px;
-        font-size: 20px;
-      margin: 0 0 0 80px;
-      padding: 45px 0 0 0;
-
-    }
-
+  .slider__ellips{
+   width: 160px;
+   height: 160px;
+   font-size: 20px;
+   margin: 0 0 0 80px;
+   padding: 45px 0 0 0;
+  }
 }

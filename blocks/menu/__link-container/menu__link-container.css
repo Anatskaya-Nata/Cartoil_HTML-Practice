@@ -1,0 +1,15 @@
+.menu__link-container{
+    padding: 157px 0 70px 0;
+}
+
+@media screen and (min-width: 768px){
+    .menu__link-container{
+        padding: 90px 0 70px 0;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .menu__link-container{
+        padding: 106px 0 100px 0;
+    }
+}

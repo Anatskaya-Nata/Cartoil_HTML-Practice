@@ -6,19 +6,18 @@
 
 @media screen and (min-width: 768px){
     .top__infoblock{
-width: 710px;
-flex-direction: row-reverse;
-justify-content: space-between;
+        width: 710px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
     }
 
 }
 
 @media screen and (min-width: 1248px){
     .top__infoblock{
-    width: 1200px;
-    align-items: flex-end;
-    /*margin: -50px 0 0 0;*/
-    max-height: 315px;
+        width: 1200px;
+         align-items: flex-end;
+         max-height: 315px;
     }
 
 }

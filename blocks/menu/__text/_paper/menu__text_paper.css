@@ -1,0 +1,9 @@
+.menu__text_paper{
+    margin: 0 0 0 37px;
+}
+
+@media screen and (min-width: 1248px){
+    .menu__text_paper{
+        margin: 0 0 0 140px;
+    }
+}

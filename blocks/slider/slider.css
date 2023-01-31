@@ -1,17 +1,12 @@
 .slider{
-width: 429px;
-margin: 0 0 0 0;
- /* position: absolute;*/
-  /*top: 200px;
-  left: 10px;*/
+  width: 429px;
+  margin: 0 0 0 0;
 }
 
 
 @media screen and (min-width: 768px){
   .slider{
-
    margin: 0 0 0 10px;
-
   }
 
 }
@@ -20,7 +15,5 @@ margin: 0 0 0 0;
     width: 750px;
     align-self: start;
     padding: 0 0 50px 0 ;
-
   }
-
 }

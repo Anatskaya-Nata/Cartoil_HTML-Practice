@@ -1,0 +1,23 @@
+.menu__paper{
+    position: absolute;
+    right:-97px;
+    top:7px;
+    width: 188px;
+    transform: rotate(-60deg);
+}
+
+@media screen and (min-width: 768px){
+    .menu__paper{
+        width: 300px;
+        transform: rotate(-38deg);
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .menu__paper{
+        width: 365px;
+        top: 28px;
+        left: 300px;
+    }
+}
+

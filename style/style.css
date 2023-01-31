@@ -8,8 +8,6 @@
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/contact/contact.css);
-@import url(../blocks/contact/__icon/contact__icon.css);
-@import url(../blocks/contact/__icon/_green/contact__icon_green.css);
 @import url(../blocks/contact/__number/contact__number.css);
 
 @import url(../blocks/top/top.css);
@@ -44,7 +42,17 @@
 @import url(../blocks/slider/swipe-icon/slider__swipe-icon.css);
 
 
-
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__cash/menu__cash.css);
+@import url(../blocks/menu/__cash/_sell/menu__cash_sell.css);
+@import url(../blocks/menu/__cash/_deposit/menu__cash_deposit.css);
+@import url(../blocks/menu/__car/menu__car.css);
+@import url(../blocks/menu/__paper/menu__paper.css);
+@import url(../blocks/menu/__link-container/menu__link-container.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__text/menu__text.css);
+@import url(../blocks/menu/__text/_auto/menu__text_auto.css);
+@import url(../blocks/menu/__text/_paper/menu__text_paper.css);
 
 
 
