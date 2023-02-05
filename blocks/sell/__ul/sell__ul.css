@@ -1,0 +1,14 @@
+.sell__ul{
+    padding: 0 0 0 0;
+    list-style-type: none;
+    margin: 0 0 0 0;
+}
+
+@media screen and (min-width: 1248px){
+    .sell__ul{
+        width: 1190px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,12 @@
+.sell{
+   /* width: 100%;*/
+   position: relative;
+    padding: 0 28px;
+}
+
+@media screen and (min-width: 1248px){
+    .sell{
+        width: 1190px;
+        margin: 0 auto;
+    }
+}

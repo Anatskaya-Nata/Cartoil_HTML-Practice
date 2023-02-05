@@ -1,0 +1,7 @@
+.footer__icons_img{
+    width: 32px;
+}
+
+.footer__icons_img:hover {
+ width: 20px;
+       }

@@ -23,7 +23,7 @@
 			<div class="header">
 				<img src="./image/Logo.svg" alt="Logo" class="logo" />
 
-				<a href="tel:" class="contact">
+				<a href="tel:" class="contact contact__header">
 					<svg
 						width="23"
 						height="23"
@@ -45,7 +45,9 @@
 						/>
 					</svg>
 
-					<div class="contact contact__number">8 (800) 852 78-87</div>
+					<div class="contact contact__number contact__number_header">
+						8 (800) 852 78-87
+					</div>
 				</a>
 			</div>
 			<div class="main">
@@ -125,7 +127,7 @@
 										type="text"
 										name="auto-number"
 										placeholder="(905) 555-75-85"
-										class="top__form_number-input"
+										class="top__form_number-input input-phone"
 									/>
 								</div>
 							</div>
@@ -168,9 +170,132 @@
 						</div>
 					</div>
 				</section>
+				<section class="sell">
+					<img src="./image/point.svg" alt="arrow" class="sell__point" />
+
+					<h3 class="sell__title">Как мы продаем Ваш автомобиль</h3>
+					<ul class="sell__ul">
+						<li class="sell__li">
+							<img src="./image/Icon_1.png" alt="icon" class="sell__icon" />
+							<img
+								src="./image/Icon_1_black.png"
+								alt="icon_black"
+								class="sell__icon_dark"
+							/>
+							<div class="sell__block">
+								<div class="sell__li_tiile">
+									<span class="sell__li_marker"> 1.</span> Запишитесь на осмотр авто
+								</div>
+
+								<div class="sell__li_text">
+									Оцените Ваш автомобиль, заполнив простую форму, и дождитесь звонка
+									оператора.
+								</div>
+							</div>
+						</li>
+						<li class="sell__li">
+							<img src="./image/Icon_2.png" alt="icon" class="sell__icon" />
+							<img
+								src="./image/Icon_2_black.png"
+								alt="icon_black"
+								class="sell__icon_dark"
+							/>
+							<div class="sell__block">
+								<div class="sell__li_tiile">
+									<span class="sell__li_marker"> 2.</span> Пройдите бесплатное техническое
+									описание
+								</div>
+
+								<div class="sell__li_text">
+									В удобное время приезжайте в ближайший филиал, где мы проведем
+									техническое описание и проверим юридическую «чистоту» машины абсолютно
+									бесплатно.
+								</div>
+							</div>
+						</li>
+						<li class="sell__li">
+							<img src="./image/Icon_3.png" alt="icon" class="sell__icon" />
+							<img
+								src="./image/Icon_3_black.png"
+								alt="icon_black"
+								class="sell__icon_dark"
+							/>
+							<div class="sell__block">
+								<div class="sell__li_tiile">
+									<span class="sell__li_marker"> 3.</span> Получите предложение
+								</div>
+
+								<div class="sell__li_text">
+									Всю собранную информацию мы используем для формирования честной цены на
+									Ваш автомобиль.
+								</div>
+							</div>
+						</li>
+						<li class="sell__li">
+							<img src="./image/Icon_4.png" alt="icon" class="sell__icon" />
+							<img src="./image/Icon_4_black.png" alt="icon" class="sell__icon_dark" />
+							<div class="sell__block">
+								<div class="sell__li_tiile">
+									<span class="sell__li_marker"> 4.</span> Получите деньги за Ваш
+									автомобиль
+								</div>
+
+								<div class="sell__li_text">
+									Если Вы согласны с предложенной ценой, мы оформим документы, и Вы сразу
+									же получите всю сумму наличными или на банковскую карту.
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="button-order__container">
+						<button type="submit" value="tap" class="button-order">
+							Узнать стоимость
+						</button>
+					</div>
+				</section>
 			</div>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__contact">
+						<a href="tel:" class="contact contact__footer">
+							<div class="contact contact__number contact__number_footer">
+								8 (800) 852 78-87
+							</div></a
+						>
+						<div class="footer__icons">
+							<a href="#" class="footer__icons_link">
+								<img
+									src="./image/Telegram.svg"
+									alt="Telegram_icon"
+									class="footer__icons_img"
+							/></a>
+							<a href="#" class="footer__icons_link">
+								<img src="./image/Vk.svg" alt="Vk_icon" class="footer__icons_img"
+							/></a>
+							<a href="#" class="footer__icons_link"
+								><img src="./image/Inst.svg" alt="Inca_icon" class="footer__icons_img"
+							/></a>
+						</div>
+					</div>
+					<div class="footer__doc">
+						<h4 class="footer__title">
+							Cartoil.ru - Организация занимается займами авто под ПТС
+						</h4>
+						<div class="footer__links">
+							<a href="" class="footer__link">Политика конфиденциальности </a>
+							<a href="" class="footer__link"> Пользовательское соглашение</a>
+						</div>
+					</div>
+					<div class="footer__logo">
+						<img src="./image/Logo.svg" alt="Logo" class="logo logo__footer" />
+					</div>
+				</div>
+			</footer>
+
+			<script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+			<script src="./js/main.js"></script>
 		</div>
-		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-		<script src="./js/main.js"></script>
 	</body>
 </html>

@@ -1,0 +1,35 @@
+
+.footer__container{
+  /*width: 320px;*/
+  display: flex;
+  flex-direction: column;
+  /*padding: 0 28px;*/
+  align-items: center;
+
+}
+
+@media screen and (min-width: 1248px){
+  .footer__container{
+
+
+padding: 20px 28px 0 28px;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: flex-start;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 1920px){
+    .footer__container{
+   width: 1248px;
+   margin: 0 auto;
+    }
+
+  }
+
+
+  

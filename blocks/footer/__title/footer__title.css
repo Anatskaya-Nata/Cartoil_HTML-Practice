@@ -1,0 +1,15 @@
+.footer__title{
+  display: none;
+/*font-size: 12px;*/
+font-weight: 400;
+/*line-height: 45px;*/
+
+}
+
+@media screen and (min-width: 1248px){
+    .footer__title{
+        display: flex;
+        margin: 0;
+    }
+  
+  }

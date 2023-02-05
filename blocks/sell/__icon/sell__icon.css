@@ -1,0 +1,19 @@
+.sell__icon{
+
+    width: 97px;
+
+}
+
+
+@media screen and (min-width: 768px){
+  .sell__icon{
+    margin:  0 0 20px 20px;
+  }
+}
+
+@media screen and (min-width: 1248px){
+  .sell__icon{
+
+      display: none;
+  }
+}

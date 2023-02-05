@@ -1,0 +1,15 @@
+.logo__footer{
+    display: none;
+}
+
+
+@media screen and (min-width: 1248px){
+    .logo__footer{
+        display: block;
+        width: 80px;
+        margin: 10px 0 0 0;
+    
+       
+    }
+
+}

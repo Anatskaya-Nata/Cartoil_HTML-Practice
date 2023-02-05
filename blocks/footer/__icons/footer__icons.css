@@ -1,0 +1,19 @@
+.footer__icons{
+display: none;
+}
+
+@media screen and (min-width: 768px){
+    .footer__icons{
+     
+        display: flex;
+       flex-direction: row;
+   
+       align-items: end;
+        margin: 10px 0 0 0;
+
+    }
+
+}
+
+
+

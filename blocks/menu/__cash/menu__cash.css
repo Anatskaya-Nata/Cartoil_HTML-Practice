@@ -1,4 +1,5 @@
 .menu__cash{
     width: 50%;
     position: relative;
+    overflow: hidden;
 }

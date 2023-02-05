@@ -1,0 +1,11 @@
+.contact__number_header{
+    display: none;  
+}
+
+@media screen and (min-width: 768px){
+    .contact__number_header{
+        display: block;
+        padding: 0 0 0 10px;
+
+    }
+}

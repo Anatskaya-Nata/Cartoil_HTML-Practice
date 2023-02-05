@@ -8,7 +8,11 @@
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__header/contact__header.css);
+@import url(../blocks/contact/__footer/contact__footer.css);
 @import url(../blocks/contact/__number/contact__number.css);
+@import url(../blocks/contact/__number/_header/contact__number_header.css);
+@import url(../blocks/contact/__number/_footer/contact__number_footer.css);
 
 @import url(../blocks/top/top.css);
 @import url(../blocks/top/__title/top__title.css);
@@ -27,6 +31,8 @@
 @import url(../blocks/top/__form/_link-checkbox/top__form_link-checkbox.css);
 
 @import url(../blocks/button-order/button-order.css);
+@import url(../blocks/button-order/__container/button-order__container.css);
+
 
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__ellips/slider__ellips.css);
@@ -53,6 +59,30 @@
 @import url(../blocks/menu/__text/menu__text.css);
 @import url(../blocks/menu/__text/_auto/menu__text_auto.css);
 @import url(../blocks/menu/__text/_paper/menu__text_paper.css);
+
+@import url(../blocks/sell/sell.css);
+@import url(../blocks/sell/__title/sell__title.css);
+@import url(../blocks/sell/__ul/sell__ul.css);
+@import url(../blocks/sell/__li/sell__li.css);
+@import url(../blocks/sell/__icon/sell__icon.css);
+@import url(../blocks/sell/__icon/_dark/sell__icon_dark.css);
+@import url(../blocks/sell/__li/_tiile/sell__li_tiile.css);
+@import url(../blocks/sell/__li/_text/sell__li_text.css);
+@import url(../blocks/sell/__li/_marker/sell__li_marker.css);
+@import url(../blocks/sell/__block/sell__block.css);
+@import url(../blocks/sell/__point/sell__point.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/logo/__footer/logo__footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__doc/footer__doc.css);
+@import url(../blocks/footer/__icons/footer__icons.css);
+@import url(../blocks/footer/__icons/_img/footer__icons_img.css);
+@import url(../blocks/footer/__icons/_link/footer__icons_link.css);
+@import url(../blocks/footer/__title/footer__title.css);
 
 
 

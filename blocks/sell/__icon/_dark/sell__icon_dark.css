@@ -1,0 +1,14 @@
+.sell__icon_dark{
+    display: none;
+}
+
+
+@media screen and (min-width: 1248px){
+    .sell__icon_dark{
+        margin:  0 0 43px 30px;
+        width: 97px;
+        display: block;
+    }
+}
+
+
