@@ -1,0 +1,14 @@
+.button-order_card{
+    width: 275px;
+    text-transform: uppercase;
+    font-family: 'Montserrat','Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 10px 0;
+
+
+}
+.button-order_card::after{
+    content: none;
+}

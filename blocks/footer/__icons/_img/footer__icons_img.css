@@ -1,7 +1,5 @@
 .footer__icons_img{
     width: 32px;
+    transition: transform .5s;
 }
 
-.footer__icons_img:hover {
- width: 20px;
-       }

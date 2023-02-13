@@ -1,21 +1,31 @@
 .sell__li{
+    width: 320px;
     display: flex;
     flex-direction: row;
     align-items:flex-start ;
+    margin: 0 auto;
 }
 
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 768px){
     .sell__li{
-     width: 320px;
-        margin: 0 auto;
+    
+       
         
     }
-}
+}*/
 
 @media screen and (min-width: 768px){
     .sell__li{
-        width: 240px;
+        width: 48%;
         flex-direction: column;
         align-items:flex-start;
     }
 }
+
+/*@media screen and (min-width: 1248px){
+    .sell__li{
+
+        flex-direction: row;
+      
+    }
+}*/

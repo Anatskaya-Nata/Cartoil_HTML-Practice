@@ -1,0 +1,21 @@
+.lien__info{ 
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px){
+    .lien__info{
+     
+    width: 280px;
+  
+    }
+}
+
+@media screen and (min-width: 1248px){
+    .lien__info{
+       /* margin: 70px 0 0 0;*/
+    width: 500px;
+  
+    }
+}

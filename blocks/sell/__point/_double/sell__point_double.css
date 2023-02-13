@@ -1,0 +1,20 @@
+.sell__point_double{
+    position: absolute;
+    top: -88px;
+    right: 50px;
+    
+}
+
+@media screen and (min-width: 768px){
+    .sell__point_double{
+
+        right: 280px;
+    }
+}
+
+@media screen and (min-width: 1248px){
+    .sell__point_double{
+        top: -95px;
+        right: 480px;
+    }
+}

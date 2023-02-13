@@ -1,0 +1,5 @@
+.lien__filter_block{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+}

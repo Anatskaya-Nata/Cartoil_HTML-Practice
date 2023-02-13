@@ -1,0 +1,12 @@
+.lien__title{
+    width: 150px;
+    margin: 0 20px 0 0 ;
+}
+
+@media screen and (min-width: 768px){
+    .lien__title{
+        width: 40%;
+        
+
+    }
+}

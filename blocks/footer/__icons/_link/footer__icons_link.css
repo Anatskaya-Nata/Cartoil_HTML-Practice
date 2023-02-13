@@ -1,5 +1,11 @@
 .footer__icons_link{
     width: 50px;
- cursor: pointer;
+    cursor: pointer;
+
+
 }
 
+.footer__icons_link:hover .footer__icons_img {
+transform: scale(0.8);
+
+}

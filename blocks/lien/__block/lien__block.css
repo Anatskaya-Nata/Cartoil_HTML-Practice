@@ -1,0 +1,32 @@
+.lien__block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   /* flex-direction: column;
+    align-items: flex-start;*/
+    margin: 62px auto 0;
+}
+
+@media screen and (min-width: 768px){
+    .lien__block{
+   /* width: 710px;*/
+    align-items: flex-start;
+    flex-direction: row;
+    
+
+    }
+}
+
+@media screen and (min-width: 1248px){
+    .lien__block{
+    /*width: 90%;*/
+    margin-top: 70px;
+    }
+}
+
+/*@media screen and (min-width: 1920px){
+    .lien__block{
+    width: 1248px;;
+  
+    }
+}*/

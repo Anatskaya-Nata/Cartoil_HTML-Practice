@@ -1,0 +1,8 @@
+.lien__filter_accent{
+    color: #81909F;
+   background: linear-gradient(90deg, #81909F 0%, #FAFAFA 100%);
+    -webkit-background-clip:text ; 
+    background-clip:text ; 
+    -webkit-text-fill-color: transparent;
+   
+}

@@ -1,0 +1,24 @@
+.lien{
+    position: relative;
+     padding: 0 28px;
+}
+
+@media screen and (min-width: 768px){
+    .lien{
+        width: 710px;
+        margin: 0 auto;
+    }
+}
+ 
+ @media screen and (min-width: 1248px){
+     .lien{
+        width: 1200px;
+     }
+ }
+
+ @media screen and (min-width: 1920px){
+    .lien{
+    width: 1248px;;
+  
+    }
+}

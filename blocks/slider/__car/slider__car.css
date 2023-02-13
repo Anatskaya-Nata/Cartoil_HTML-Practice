@@ -5,6 +5,7 @@
     width: 375px;
 }
 
+
 @media screen and (min-width: 1248px){
   .slider__car{
     width: 760px;

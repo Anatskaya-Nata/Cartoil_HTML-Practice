@@ -1,0 +1,22 @@
+.lien__znack{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .lien__znack{
+     display: block;
+     width: 40px;
+     height: 40px;
+     margin: 0 20px 0 0 ;
+
+        
+
+    }
+}
+
+@media screen and (min-width: 1248px){
+    .lien__znack{
+     margin: 0 32px 0 0 ;
+ 
+    }
+}
