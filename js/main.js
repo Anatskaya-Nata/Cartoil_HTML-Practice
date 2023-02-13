@@ -1,7 +1,6 @@
 const menuToggle = document.querySelectorAll('.menu__link')
 const menuTab = document.querySelectorAll('.tab')
 const menuCash = document.querySelectorAll('.menu__cash')
-console.log(menuCash)
 
 for (let i = 0; i < menuToggle.length; i++) {
 	menuToggle[i].addEventListener('click', (event) => {
@@ -31,3 +30,13 @@ for (let i = 0; i < menuToggle.length; i++) {
 		console.log(menuTab[i])
 	})
 }
+
+/*Добавляем маску на инпут с телефоном*/
+const PhoneInput = document.querySelector('.top__form_number-input')
+console.log(PhoneInput)
+const maskOptions = {
+	mask: '(000)000-00-00',
+}
+const mask = new IMask(PhoneInput, maskOptions)
+
+/*var mask = IMask(element, maskOptions)*/
