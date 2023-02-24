@@ -1,0 +1,47 @@
+.lien__filter_container{
+    width: 150px;
+    overflow: hidden;
+    position: relative;
+    /*height: 30px;*/
+    /*display: inline-block;*/
+
+
+}
+
+.lien__filter_container{
+    cursor: pointer;
+   
+}
+
+
+.lien__filter_container:hover .lien__filter_marquee{
+    
+    animation: 5s ease-in 0.5s infinite normal  running price;
+}
+
+@keyframes price{
+    0%{
+left: 5px;
+    }
+    100%{
+left: -210px;
+    }
+
+}
+
+
+.lien__filter_container::after{
+    content:"";
+    position: absolute;
+    width: 66px;
+    height: 13px;
+    background: transparent;
+    opacity: 0.9;
+    background: linear-gradient(90deg, rgba(250,250,250,0) 0%,  rgba(255,255,255,3) 100%);
+    top: 9px;
+    left: 85px;
+
+
+
+}
+

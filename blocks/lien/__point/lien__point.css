@@ -1,0 +1,19 @@
+.lien__point{
+    position: absolute;
+    top: -230px;
+    right: 25px; 
+}
+
+@media screen and (min-width: 768px){
+    .lien__point{
+        top: -85px;
+        left: 100px;
+    }
+}
+
+@media screen and (min-width: 1248px){
+    .lien__point{
+        top: -95px;
+        right: 480px;
+    }
+}

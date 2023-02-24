@@ -1,0 +1,22 @@
+.avto__card_logo{
+    display: none;
+}
+
+@media screen and (min-width: 1248px){
+    .avto__card_logo{
+        display: block;
+        width: 150px;
+        margin: 0 0 0 0;
+    }
+  
+  }
+  @media screen and (min-width: 1920px){
+    .avto__card_logo{
+        display: block;
+        width: 150px;
+        margin: 0 260px 0 0;
+    }
+  
+  }
+  
+  

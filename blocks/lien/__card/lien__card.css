@@ -1,5 +1,6 @@
 .lien__card{
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -7,4 +8,24 @@
     margin:  30px  0 0;
     padding: 0 0 20px 0;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 768px){
+    .lien__card{
+        width: calc(50% + 15px);
+        max-width: 345px;
+
+       /* justify-content: space-around;*/
+      
+    }
+}
+
+@media screen and (min-width: 1248px){
+    .lien__card{
+        width: 33%;
+        max-width: 369px;
+
+       /* justify-content: space-around;*/
+      
+    }
 }

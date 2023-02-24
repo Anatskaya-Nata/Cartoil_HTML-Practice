@@ -6,13 +6,16 @@
 
 @media screen and (min-width: 768px){
   .slider{
+    /*min-width: 500px;*/
+    min-width: 650px;
    margin: 0 0 0 10px;
   }
 
 }
 @media screen and (min-width: 1248px){
   .slider{
-    width: 750px;
+    /*min-width: 850px;*/
+    min-width: 839px;
     align-self: start;
     padding: 0 0 50px 0 ;
   }

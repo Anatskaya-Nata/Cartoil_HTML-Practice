@@ -1,0 +1,31 @@
+.ad__block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 28px 0 28px;
+    margin: 0 auto;
+
+    
+}
+
+
+@media screen and (min-width:768px) {
+    .ad__block{
+        padding: 0 0 0 90px;
+        margin: 0;
+    }  
+}
+
+@media screen and (min-width:1248px) {
+    .ad__block{
+        padding: 0 0 0 200px;
+    }  
+}
+
+@media screen and (min-width:1920px) {
+    .ad__block{
+        width: 1248px;
+        margin: 0 auto;
+        padding: 0;
+    }  
+}

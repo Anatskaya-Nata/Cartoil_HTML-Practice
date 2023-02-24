@@ -1,1 +1,4 @@
-new Swiper('.slider')
+new Swiper('.slider', {
+	grabCursor: true,
+	loop: true,
+})

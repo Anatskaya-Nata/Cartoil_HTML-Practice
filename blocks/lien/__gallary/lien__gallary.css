@@ -1,10 +1,11 @@
 .lien__gallary{
-    width: 100%;
-    max-width: 540px;
+    max-width: 100%;
+    box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /*flex-direction: column;*/
+    /*flex-wrap: wrap;
+    justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
     padding: 0 0 86px 0 ;
     margin: 0 auto;
 }
@@ -12,23 +13,19 @@
 
 @media screen and (min-width: 768px){
     .lien__gallary{
-        max-width: 680px;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-between;
       
     }
 }
 
 @media screen and (min-width: 1248px){
     .lien__gallary{
-        max-width: 1100px;
+        max-width: 1248px;
         padding: 0 0 300px 0 ;
 
     }
 }
-@media screen and (min-width: 1920px){
-    .lien__gallary{
-        max-width: 1248px;
 
-    }
-}
 

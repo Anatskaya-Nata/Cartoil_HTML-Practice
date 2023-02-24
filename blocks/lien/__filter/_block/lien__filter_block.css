@@ -1,5 +1,18 @@
 .lien__filter_block{
+   
     display: flex;
     flex-direction: row;
     width: 320px;
+    justify-content: space-between;
+    /*overflow: hidden;*/
+   
 }
+/*.lien__filter_block:hover{
+    cursor: pointer;
+}
+
+
+.lien__filter_block:hover .lien__filter_marquee{
+    animation-play-state: running;
+   
+}*/

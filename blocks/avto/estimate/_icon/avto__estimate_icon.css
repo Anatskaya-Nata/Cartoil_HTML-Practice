@@ -1,0 +1,13 @@
+.avto__estimate_icon{
+    width: 75px;
+    margin: 30px 0 0 0;
+}
+
+@media screen and (min-width: 1248px){
+    .avto__estimate_icon{
+      
+display: none;
+
+    }
+  
+  }

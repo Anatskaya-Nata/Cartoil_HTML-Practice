@@ -1,0 +1,10 @@
+.avto__estimste_text-hidden{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .avto__estimste_text-hidden{
+display: inline;
+    }
+  
+  }

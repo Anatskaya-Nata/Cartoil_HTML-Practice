@@ -1,0 +1,41 @@
+.ad__paper{
+    width: 256px;
+    top: 18px;
+    left: 255px
+}
+
+
+
+
+@media screen and (min-width: 768px){
+    .ad__paper{
+
+        position: absolute;
+        transform: rotate(-60deg);
+        width: 750px;
+        top: -35px;
+        left: 490px;
+        }
+  
+  }
+
+  @media screen and (min-width: 1248px){
+    .ad__paper{
+
+        width: 850px;
+        top: 0px;
+        left: 800px;
+  
+        }
+  
+  }
+
+  @media screen and (min-width: 1920px){
+    .ad__paper{
+        width: 700px;
+        top: 25px;
+        left: 680px;
+  
+        }
+  
+  }

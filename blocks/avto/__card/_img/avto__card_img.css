@@ -1,0 +1,11 @@
+.avto__card_img{
+    width: 100%;
+ 
+}
+
+@media screen and (min-width: 1248px){
+    .avto__card_img{
+        display: none;
+    }
+  
+  }

@@ -1,0 +1,11 @@
+.avto__estimate_icon-black{
+    width: 75px;
+    display: none;
+}
+
+@media screen and (min-width: 1248px){
+    .avto__estimate_icon-black{
+display: block;
+    }
+  
+  }

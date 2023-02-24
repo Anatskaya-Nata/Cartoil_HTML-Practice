@@ -1,0 +1,26 @@
+
+.avto__card_title{
+    width: 70%;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+@media screen and (min-width: 768px){
+    .avto__card_title{
+        width: 50%;
+        font-size: 35px;
+        flex-direction: row;
+        align-items:start;
+    }
+  
+  }
+  @media screen and (min-width: 1248px){
+    .avto__card_title{
+        width: 100%;
+        line-height: 60px;
+    }
+  
+  }

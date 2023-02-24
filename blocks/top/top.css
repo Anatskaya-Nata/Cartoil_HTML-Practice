@@ -1,13 +1,15 @@
 .top{
 width: 100%;
+box-sizing: border-box;
 margin: 0 auto;
 padding: 0 0 80px 28px;
+
 }
 
 
 @media screen and (min-width: 1248px){
     .top{
         width: 1248px;       
-padding: 0 0 120px 0;
+        padding: 0 0 120px 0;
     }
 }

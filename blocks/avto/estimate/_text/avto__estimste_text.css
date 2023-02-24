@@ -1,0 +1,28 @@
+.avto__estimste_text{
+    
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 0 0 0;
+     
+}
+
+@media screen and (min-width: 768px){
+    .avto__estimste_text{
+        font-size: 40px;
+        margin: 40px 0 0 0;
+
+    }
+  
+  }
+
+  @media screen and (min-width: 1248px){
+    .avto__estimste_text{
+        color: #8ED74F;
+        
+    }
+  
+  }

@@ -1,0 +1,12 @@
+.lien__card_avto-icon{
+    width: 30px;
+}
+
+
+@media screen and (min-width: 1248px){
+    .lien__card_avto-icon{
+        width: 50px;
+    
+    }
+  
+  }

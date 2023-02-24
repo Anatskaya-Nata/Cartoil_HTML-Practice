@@ -1,12 +1,16 @@
 .slider__car_polo{
-    width: 485px;
-    top: -75px;
-    left: -30px;
+  width: 485px;
+  top: -75px;
+  
 }
 
 @media screen and (min-width: 768px){
   .slider__car_polo{
-    width: 470px
+ /*width: 470px
+ width: 590px;*/
+ width: 630px;
+ left: -50px;
+  
   }
 }
 

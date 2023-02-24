@@ -1,0 +1,27 @@
+.avto__card_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+ 
+}
+
+@media screen and (min-width: 768px){
+    .avto__card_block{
+        max-width: 720px;
+        flex-direction: row;
+        align-items:start;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+  
+  }
+
+  @media screen and (min-width: 1248px){
+    .avto__card_block{
+        max-width: 320px;
+        flex-direction:column;
+        margin: 0 0 0 0;
+    }
+  
+  }

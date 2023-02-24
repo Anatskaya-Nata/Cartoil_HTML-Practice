@@ -1,0 +1,11 @@
+.quest__image{
+    width: 56px;
+    margin: 30px 0 0 0;
+}
+
+@media screen and (min-width: 1248px){
+    .quest__image{
+        width: 84px;
+        margin: 71px 0 0 0;
+    }
+}

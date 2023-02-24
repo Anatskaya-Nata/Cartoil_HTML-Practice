@@ -1,23 +1,38 @@
 .menu__paper{
     position: absolute;
-    right:-97px;
+    left: 96px;
     top:7px;
-    width: 188px;
-    transform: rotate(-60deg);
+    width: 210px;
+ transform: rotate(-60deg);
+
+
 }
 
 @media screen and (min-width: 768px){
     .menu__paper{
         width: 300px;
         transform: rotate(-38deg);
+        left: 180px;
+        right:auto;
+    }
+}
+
+@media screen and (min-width: 1248px){
+    .menu__paper{
+        width: 400px;
+        top: -10px;
+        /*right:-150px*/
+        left: 350px;
     }
 }
 
 @media screen and (min-width: 1920px){
     .menu__paper{
-        width: 365px;
-        top: 28px;
+        width: 410px;
+        top: 20px;
         left: 300px;
     }
 }
+
+
 

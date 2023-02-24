@@ -6,7 +6,9 @@
 
 @media screen and (min-width: 768px){
   .slider__car_rio{
-    width: 400px;
+    width: 510px;
+    top:5px;
+    left: 0px;
   }
 }
 

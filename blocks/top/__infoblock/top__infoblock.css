@@ -6,9 +6,10 @@
 
 @media screen and (min-width: 768px){
     .top__infoblock{
-        width: 710px;
+       /* width: 710px;*/
+
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: start;
     }
 
 }

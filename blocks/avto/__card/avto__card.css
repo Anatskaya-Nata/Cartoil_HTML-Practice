@@ -1,0 +1,25 @@
+.avto__card{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 28px 0 28px;
+}
+
+@media screen and (min-width: 1248px){
+    .avto__card{
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+  
+  }
+
+  @media screen and (min-width: 1920px){
+    .avto__card{
+        width: 1250px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+  
+  }
+

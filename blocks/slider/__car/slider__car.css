@@ -1,14 +1,18 @@
 .slider__car{
     position: absolute;
-    top: -10px;
+   
+    /*top:0;
+    left: 0px;*/
+   /* top: -10px;
     left: 15px;
-    width: 375px;
+    width: 375px;*/
+
 }
 
 
-@media screen and (min-width: 1248px){
+/*@media screen and (min-width: 1248px){
   .slider__car{
     width: 760px;
     top: -18px;
   }
-}
+}*/

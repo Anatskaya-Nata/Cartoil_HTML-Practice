@@ -1,5 +1,23 @@
-.page{    
- min-width: 375px;
+.page{  
+
+  /*min-width: 375px;*/
   background-image: url(../../image/background_small.jpg);
 
+
 }
+
+/*@media screen and (min-width: 375px){
+  .page{
+    width: 100%;
+    
+
+  }
+}*/
+
+/*
+
+!!!!обвести все блоки красной линией!!!!
+
+* {
+  outline: 1px solid red;
+  }*/

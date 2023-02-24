@@ -1,0 +1,12 @@
+.ad__text_bold{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+
+@media screen and (min-width:768px){
+    .ad__text_bold{
+        font-size: 40px;
+    }
+}

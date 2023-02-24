@@ -1,0 +1,7 @@
+.quest{
+ 
+    padding: 0 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

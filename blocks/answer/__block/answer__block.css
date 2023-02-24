@@ -1,0 +1,16 @@
+.answer__block{
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 58px 0;
+}
+
+
+ @media screen and (min-width:768px) {
+    .answer__block{
+        max-width: 625px; 
+    }
+ }
+

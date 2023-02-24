@@ -1,0 +1,9 @@
+.button-order__quest{
+    margin: 0 0 100px 0;
+}
+
+@media screen and (min-width: 1248px){
+    .button-order__quest{
+        margin: 0 0 432px 0;
+    }
+}

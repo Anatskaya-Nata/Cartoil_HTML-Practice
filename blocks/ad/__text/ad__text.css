@@ -1,0 +1,18 @@
+.ad__text{
+ width: 290px;
+   margin: 40px 0 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+ 
+}
+
+
+@media screen and (min-width:768px){
+    .ad__text{
+        width: 450px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+}

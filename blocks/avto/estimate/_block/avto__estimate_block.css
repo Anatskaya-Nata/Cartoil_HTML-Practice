@@ -1,0 +1,7 @@
+.avto__estimate_block{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding:  0 0 10px 0;
+}
+

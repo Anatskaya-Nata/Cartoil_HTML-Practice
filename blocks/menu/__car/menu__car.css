@@ -1,20 +1,27 @@
 .menu__car{
     width: 265px;
     position: absolute;
-    left: -83px;
     top: 20px;
+    right: 0px;
+    left: auto;
+   
 }
 
 @media screen and (min-width: 768px){
     .menu__car{
-        width: 300px;
+        width: 380px;
         top: 50px;
+        right: 160px;
+      /*  left: -83px;*/
     }
 }
 
 @media screen and (min-width: 1248px){
     .menu__car{
-        width: 390px;
+        width: 500px;
+        top: 15px;
+        left:auto;
+        right: 250px;
     }
 }
 
@@ -22,6 +29,6 @@
     .menu__car{
         width: 562px;
         top: 21px;
-        left: 94px;
+        right: 240px;
     }
 }
