@@ -1,0 +1,17 @@
+.form__input{
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+cursor: pointer;
+}
+
+
+
+
+  .form__input:hover::placeholder {
+    margin: 0 auto;
+    color: #000;
+  
+    }
+    
+    

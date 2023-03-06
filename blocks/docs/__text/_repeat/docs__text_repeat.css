@@ -1,0 +1,10 @@
+.docs__text_repeat{
+    display: none;
+  
+}
+
+@media screen and (min-width: 768px){
+    .docs__text_repeat{
+        display: block;
+    }
+}

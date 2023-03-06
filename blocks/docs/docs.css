@@ -1,0 +1,16 @@
+.docs{
+    display: flex;
+    flex-direction: column;
+    padding: 0 27px 120px 27px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+@media screen and (min-width: 1248px){
+    .docs{
+       max-width: 1248px;
+       padding: 0 27px 99px 27px;
+    }
+}

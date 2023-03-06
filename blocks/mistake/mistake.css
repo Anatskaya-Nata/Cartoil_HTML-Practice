@@ -1,0 +1,14 @@
+.mistake{
+    display: flex;
+    flex-direction: column;
+    padding: 0 28px 100px 28px;
+    width: 375px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+@media screen and (min-width:768px){
+    .mistake{
+        width: 568px;
+        justify-content: start;
+    }
+}

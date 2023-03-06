@@ -1,0 +1,13 @@
+.mistake__car{
+    top: 125px;
+    left: 45px
+}
+
+@media screen and (min-width: 768px){
+    .mistake__car{
+   width: 630px;
+   left: 160px
+    
+    }
+  }
+  

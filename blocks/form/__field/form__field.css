@@ -1,0 +1,19 @@
+.form__field{
+
+    border: 0.5px solid #000;
+    border-radius: 5px;  
+    padding: 17px 0 17px 22px;
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.form__field::before{
+    content:'';
+    background-image: url(../../../image/pt.svg);
+    position: absolute;
+    top: 26px;
+    left: 282px;
+    z-index: 10;
+    width: 15px;
+    height: 8px;
+}

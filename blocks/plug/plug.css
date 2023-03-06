@@ -1,0 +1,10 @@
+.plug{
+    width: 900px;
+}
+
+@media screen and (min-width:900px){
+    .plug{
+        width: 900px;
+        justify-content: start;
+    }
+}
