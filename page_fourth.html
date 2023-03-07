@@ -21,7 +21,7 @@
 	<body class="root">
 		<div class="page">
 			<div class="header">
-				<img src="./image/Logo.svg" alt="Logo" class="logo" />
+				<a href="./index.html"> <img src="./image/Logo.svg" alt="Logo" class="logo" /></a>
 
 				<a href="tel:" class="contact contact__header">
 					<svg
@@ -200,10 +200,62 @@
 						</div>
 						<p class="answer__comment">Вы можетет указать данные по автомобилю вручную</p>
 						<button type="submit" value="tap" class="button-order button-order__answer">
-							заполнить форму
+							<a href="#open" class="button-order__link">заполнить форму</a>
 						</button>
 					</div>
 				</section>
+
+				<div class="form" id="open">
+					<div>
+						<a href="#close"
+							><img src="./image/close.svg" alt="close" class="form__close"
+						/></a>
+
+						<h3 class="form__title">Укажите данные своего автомобиля</h3>
+						<form action="#" class="form__block">
+							<div class="form__field">
+								<input
+									type="text"
+									name="car brand"
+									placeholder="Toyota"
+									class="top__form_number-input form__input"
+								/>
+							</div>
+
+							<div class="form__field">
+								<input
+									type="text"
+									name="car model"
+									placeholder="Модель автомобиля"
+									class="top__form_number-input form__input"
+								/>
+							</div>
+
+							<div class="form__field">
+								<input
+									type="text"
+									name="car year"
+									placeholder="Год"
+									class="top__form_number-input form__input"
+								/>
+							</div>
+
+							<div class="form__field">
+								<input
+									type="text"
+									name="car mod"
+									placeholder="Модификация"
+									class="top__form_number-input form__input"
+								/>
+							</div>
+							<button type="submit" value="tap" class="button-order button-order__form">
+								<a href="./page_third.html" target="_blank" class="button-order__link"
+									>Узнать стоимость</a
+								>
+							</button>
+						</form>
+					</div>
+				</div>
 
 				<section class="ad">
 					<div class="ad__block">
@@ -250,8 +302,8 @@
 							Cartoil.ru - Организация занимается займами авто под ПТС
 						</h4>
 						<div class="footer__links">
-							<a href="" class="footer__link">Политика конфиденциальности </a>
-							<a href="" class="footer__link"> Пользовательское соглашение</a>
+							<a href="./docs.html" class="footer__link">Политика конфиденциальности </a>
+							<a href="./docs.html" class="footer__link"> Пользовательское соглашение</a>
 						</div>
 					</div>
 					<div class="footer__logo">

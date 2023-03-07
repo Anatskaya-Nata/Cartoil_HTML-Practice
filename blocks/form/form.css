@@ -1,7 +1,33 @@
 .form{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    pointer-events: none;
+
+
+
+   /* display: flex;
+    flex-direction: column;
+    padding:  0 28px 121px 28px;
+    align-items: center;
+    background-color: #fff;*/
+}
+
+
+.form:target {
+    display: block;
+    pointer-events: auto;
+}
+
+.form > div {
+    width: 320px;
     display: flex;
     flex-direction: column;
     padding:  0 28px 121px 28px;
-   align-items: center;
+    /*align-items: center;*/
     background-color: #fff;
 }

@@ -1,0 +1,12 @@
+.button-order__link{
+   text-decoration: none; 
+   color: #fff;
+   padding: 19px 60px;
+
+}
+
+.button-order__link:hover{
+
+    color:#2CC9B8;
+    transition: .5s;
+}

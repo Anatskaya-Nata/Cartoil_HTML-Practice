@@ -1,6 +1,7 @@
 .form__close{
     display: flex;
     width: 20px;
-    align-self: self-end;
-    margin: 30px 0 0 0;
+    /*align-self: self-end;*/
+    justify-self: right;
+    margin: 30px 0 0 300px;
 }
